@@ -1,0 +1,58 @@
+/* Desafio1*/
+.containerGatos {
+    
+    display: flex;
+}
+.conteinerGato {
+    display: inline-block;
+    margin-left: 50px;
+    
+    
+}
+
+.gatobravo {
+    box-shadow: 0px 0px 10px 0px rgb(183, 183, 252);
+    width: 250px;
+    height: 200px;
+}
+
+.caixaTela {
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(156, 156, 158);
+    width: 250px;
+    height: 200px;
+    
+}
+
+.pessoa1{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.amigosComum {
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.botaoAmigo1{
+    padding-top: 18px;
+    padding-left: 15px;
+}
+
+.botaoAdicao {
+    color: rgb(246, 246, 248);
+    font-weight: 500;
+    background-color: rgb(60, 60, 242);
+    font-size: 15px;
+    padding: 15px;
+    width: 185px;
+    
+}
+
+.botaoAdicao:hover{
+    color: rgb(42, 42, 44);
+    background-color: rgb(153, 153, 242);
+}

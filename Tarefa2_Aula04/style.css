@@ -1,0 +1,381 @@
+* {
+    font-family: "Sora", sans-serif;
+    line-height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.ex1 {
+    width: 300px;
+    background-color: rgb(39, 39, 39);
+    padding: 30px;
+}
+
+.h2ex1 {
+    color: rgb(245, 245, 245);
+}
+
+.subtitulo {
+    color: rgb(158, 158, 158);
+    font-size: 14px;
+}
+
+.textex1 {
+    color: rgb(231, 231, 231);
+}
+
+.btnex1 {
+    background-color: rgb(0, 119, 26);
+    color: rgb(245, 245, 245);
+    padding: 8px;
+    border-radius: 4px;
+    border: 0px;
+    font-weight: 500;
+}
+
+.divex2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1 {
+    width: 200px;
+    border-radius: 16px;
+}
+
+.img2 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.img3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+
+
+}
+
+/* Estilizando exercicio 3 A*/
+
+.caixabusca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#busca {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(230, 241, 230);
+}
+
+label {
+    font-size: 17px;
+    padding: 5px;
+    margin-top: 15px;
+    
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Estilizando exercicio 3 B*/
+
+#buscagoogle {
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 0 5px 0 black;
+    width: 500px;
+    padding: 10px;
+   
+}
+
+.caixabuscagoogle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilizando exercicio 3 C*/
+
+.textEmail {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    
+}
+
+#txtEmail{
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 470px;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+.palavra1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btnconcordo{
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    border-radius: 100px;
+    margin-top: 20px;
+    
+}
+
+
+
+.btnconcordo{
+    background-color: rgb(30, 30, 227);
+    color: rgb(232, 241, 232)
+    
+}
+
+.btnconcordo:hover{
+    background-color: rgb(90, 90, 234);
+}
+
+.caixaLinkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilizando exercicio 4 A*/
+
+.caixas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+    
+    
+
+
+.boxtexto{
+    padding: 10px;
+    width: 300px;
+    display: block;
+}    
+
+/* Estilizando exercicio 4 B*/
+
+.caixapesquisa{
+    width: 100%;
+   text-align: center;
+   
+}
+
+.pesquisa{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+button{
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(203, 203, 227);
+    color: rgb(51, 51, 221);
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(8, 8, 90);
+    color: rgb(228, 228, 235);
+}
+
+/* Estilizando exercicio 4 C*/
+
+.caixaCadastro {
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#txtNome1 {
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    margin-bottom: 5px;
+    
+}
+
+#txtSobrenome1 {
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+
+
+#txtEmail1 {
+    padding: 10px;
+    border-radius: 5px;
+    width: 335px;
+}
+
+.botao4 {
+    border-radius: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(54, 54, 230);
+    color: rgb(226, 226, 244);
+    width: 358px;
+    margin-right: -9px;
+    cursor: pointer;
+    
+    
+}
+
+.botao4:hover{
+    background-color: rgb(99, 99, 106);
+    color: rgb(31, 220, 31);
+}
+
+/* Estilizando exercicio 4 D*/
+
+.viagem {
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight:500;
+}
+
+.formViage{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixaInputs {
+    margin-left: 599px;
+    
+}
+
+.inputs{
+    display:flex;
+    
+}
+
+#partida{
+    font-size: 16px;
+    background-color: rgb(211, 211, 217);
+    padding: 10px;
+    width: 333px;
+}
+
+#destino{
+    font-size: 16px;
+    background-color: rgb(211, 211, 217);
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 333px;
+}
+
+.caixasBotoes{
+    margin-left: 35px;
+}
+
+.btnSolicite{
+    border-radius: 0;
+    font-size: 16px;
+    border: 0;
+    background-color: rgb(211, 211, 217);
+    color: rgb(53, 53, 55);
+    cursor: pointer;
+    
+    
+    
+}
+
+.btnAgenda {
+    border-radius: 0;
+    font-size: 16px;
+    border: 0;
+    background-color: rgb(211, 211, 217);
+    color: rgb(53, 53, 55);
+    cursor: pointer;
+    
+}
+
+.btnSolicite:hover{
+    background-color: rgb(17, 17, 17);
+    color: rgb(250, 250, 255);
+    transition: background-color 0.5s;
+}
+
+.btnAgenda:hover{
+    background-color: rgb(17, 17, 17);
+    color: rgb(250, 250, 255);
+    transition: background-color 0.5s;
+}
+
+/* Estilizando exercicio 4 E*/
+
+.conteinerGato {
+    margin-left: 599px;
+    
+    
+}
+
+.gatobravo {
+    box-shadow: 0px 0px 10px 0px rgb(183, 183, 252);
+    width: 250px;
+    height: 200px;
+}
+
+.caixaTela {
+    box-shadow: 0px 0px 10px 0px rgb(156, 156, 158);
+    width: 250px;
+    height: 170px;
+    
+}
+
+.pessoa1{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.amigosComum {
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.botaoAmigo1{
+    padding-top: 18px;
+    padding-left: 15px;
+}
+
+.botaoAdicao {
+    color: rgb(246, 246, 248);
+    font-weight: 500;
+    background-color: rgb(60, 60, 242);
+    font-size: 15px;
+    padding: 15px;
+    width: 185px;
+    
+}
+
+.botaoAdicao:hover{
+    color: rgb(42, 42, 44);
+    background-color: rgb(153, 153, 242);
+}
