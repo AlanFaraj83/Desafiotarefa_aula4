@@ -75,6 +75,7 @@
     display: block;
     align-items: center;
     margin: auto;
+    margin-bottom: 10px;
     
     
 }
@@ -87,8 +88,10 @@
     display: block;
     border-radius: 20px;
     margin: auto;
+    box-shadow: 0px 0px 20px rgba(198, 197, 197, 0.42);
     border: none;
-    box-shadow: 0px 0px 5px rgba(red, green, blue, alpha);
+    outline: none;
+    margin-bottom: 10px;
     
 }
 
@@ -97,9 +100,6 @@
     margin-top: 10px;
     padding: 10px;
     border: none;
-    
-
-    
-    
+    margin: 0 10px;
     
 }
